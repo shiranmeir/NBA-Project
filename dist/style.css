@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(236, 240, 241);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.players-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#names {
+    text-align: center;
+
+}
+
+#button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pos {
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center
+}
+
+.player-info {
+    background-color:rgb(228, 126, 48);
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+    border: 0.75px solid black;
+
+}
+
+#img {
+    border: 0.75px solid black;
+    width: 320px;
+    background-color: rgb(219, 201, 201);
+}
